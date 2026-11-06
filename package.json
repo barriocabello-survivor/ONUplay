@@ -1,0 +1,19 @@
+{
+  "name": "mision-consejo",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "¿Y si tú fueras el Consejo de Seguridad? — videojuego educativo 3D",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3000",
+    "build": "vite build",
+    "build:html": "node scripts/build-standalone.mjs",
+    "preview": "vite preview --host 0.0.0.0 --port 3000"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7"
+  }
+}
